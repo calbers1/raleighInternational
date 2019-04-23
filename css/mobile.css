@@ -1,7 +1,7 @@
 /* Style sheet */
 
 /* Media query */
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 730px) {
 
 body{
 	padding: 0;
@@ -58,7 +58,6 @@ nav ul ul li {
 }
 
 nav ul ul ul li { position: static;
-
 }
 
 
@@ -77,4 +76,10 @@ footer {
 	text-align: center;
 	padding: 8px;
 }
+}
+@media all and (max-width : 330px) {
+
+nav ul li {
+  display: block;
+  width: 94%;
 }
