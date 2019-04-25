@@ -3,6 +3,15 @@
 	box-sizing: border-box;
   }
   
+    /* Container that covers 1/8 of the screen*/
+  .column-8 {
+	text-align: center;
+	float: left;
+	width: 12.5%;
+	padding: 0 15px;
+	padding-bottom: 15px;
+  }
+
   /* Container that covers 1/4 of the screen*/
   .column-4 {
 	text-align: center;
@@ -82,7 +91,7 @@
   
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
-	.column-4, .column-3, .column-2, .big-column {
+	.column-8, .column-4, .column-3, .column-2, .big-column {
 	  width: 100%;
 	  display: block;
 	  margin-bottom: 20px;
