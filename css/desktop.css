@@ -90,6 +90,10 @@ nav a {
   text-decoration: none;
 }
 
+nav ul li ul li{
+  width: 200px;
+}
+
 nav ul li ul li:hover { background: #000000; }
 
 nav a:hover { background-color: #000000;
