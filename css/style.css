@@ -86,7 +86,7 @@
 .card-image-sm {
   width: 100%;
   display: block;
-  max-height: 17rem;
+  max-height: 13rem;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
