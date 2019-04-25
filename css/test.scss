@@ -1,0 +1,25 @@
+$maroon: rgb(85,0,0);
+$nav-color: rgba($maroon, 0.8);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: $nav-color;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plane{
+    max-width: calc(100% - 10em);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: center;
+}
