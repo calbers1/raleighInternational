@@ -1,80 +1,92 @@
 * {
-  margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-nav {
-  background-color: rgba(85, 0, 0, 0.8);
+/* Container that covers 1/4 of the screen*/
+.column-4 {
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+  padding-bottom: 15px;
 }
 
-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+/* Container that covers 1/3 of the screen*/
+.column-3 {
+  float: left;
+  width: 33.3%;
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+
+/* Container that covers 1/2 of the screen*/
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+
+/* Container that covers the whole screen*/
+.big-column {
+  float: center;
+  width: 100%;
+  padding: 0 15px;
+  padding-bottom: 15px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-#plane {
-  max-width: calc(100% - 5em);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: center;
-          flex-direction: center;
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+  color: black;
 }
 
-#plane2 {
-  max-width: calc(50% - 5em);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: center;
-          flex-direction: center;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#plane3 {
-  max-width: calc(20% - 5em);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: center;
-          flex-direction: center;
+/* Style the cards */
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
 
-#plane4 {
-  max-width: calc(15% - 5em);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: right;
-          flex-direction: right;
+.card-image {
+  width: 100%;
+  display: block;
+  max-height: 500px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-image::before {
+  content: "";
+  display: block;
+  padding-bottom: 56.25%;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 body {
-  background: #220000;
+  background: #d1e8f3;
   font-size: 22px;
   line-height: 32px;
   color: #ffffff;
