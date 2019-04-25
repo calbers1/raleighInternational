@@ -10,6 +10,14 @@
 	padding: 0 15px;
 	padding-bottom: 15px;
   }
+
+  .big-column{
+	float: center;
+	width: 100%;
+	padding: 0 15px;
+	padding-bottom: 15px;
+	justify-content: center;
+  }
   
   /* Remove extra left and right margins, due to padding in columns */
   .row {margin: 0 -5px;
@@ -28,6 +36,13 @@ color: black;}
 	padding: 16px;
 	text-align: center;
 	background-color: #f1f1f1;
+  }
+
+  #plane{
+	  width: 100%;
+	  
+		object-fit: cover;
+	  
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
