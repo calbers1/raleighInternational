@@ -1,3 +1,5 @@
+/*variables*/
+/*mixins*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -66,6 +68,10 @@
 
 /* Style the cards */
 .card {
+  background: #EDAC7D;
+  background: -webkit-gradient(linear, left top, left bottom, from(#31B7D7), to(#EDAC7D));
+  background: linear-gradient(#31B7D7, #EDAC7D);
+  background: linear-gradient(135deg, gray, lightgray, white);
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   /* this adds the "card" effect */
@@ -165,7 +171,7 @@ p {
 nav {
   margin: 0;
   padding: 0;
-  background-color: #044c6e;
+  background-color: #194960;
 }
 
 #logo {
@@ -194,7 +200,7 @@ nav ul li {
   margin: 0px;
   display: inline-block;
   float: left;
-  background-color: #044c6e;
+  background-color: #194960;
 }
 
 nav a {
@@ -206,11 +212,11 @@ nav a {
 }
 
 nav ul li ul li:hover {
-  background: #0c80b7;
+  background: #43a1ce;
 }
 
 nav a:hover {
-  background-color: #0c80b7;
+  background-color: #43a1ce;
 }
 
 nav ul ul {
@@ -267,7 +273,7 @@ li > a:only-child:after {
   }
   .toggle {
     display: block;
-    background-color: #044C6E;
+    background-color: #194960;
     padding: 14px 20px;
     color: #FFF;
     font-size: 17px;
@@ -275,7 +281,7 @@ li > a:only-child:after {
     border: none;
   }
   .toggle:hover {
-    background-color: #0c80b7;
+    background-color: #43a1ce;
   }
   [id^=drop]:checked + ul {
     display: block;
@@ -293,7 +299,7 @@ li > a:only-child:after {
   }
   nav a:hover,
   nav ul ul ul a {
-    background-color: #0c80b7;
+    background-color: #43a1ce;
   }
   nav ul li ul li .toggle,
   nav ul ul a,
@@ -304,7 +310,7 @@ li > a:only-child:after {
   }
   nav ul li ul li .toggle,
   nav ul ul a {
-    background-color: #044C6E;
+    background-color: #194960;
   }
   nav ul ul {
     float: none;
