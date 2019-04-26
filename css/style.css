@@ -158,6 +158,13 @@ h1 {
   max-width: 890px;
 }
 
+#title {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 3%;
+  padding-top: 0%;
+}
+
 p {
   text-align: center;
 }
@@ -199,7 +206,6 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  float: left;
   background-color: #194960;
 }
 
