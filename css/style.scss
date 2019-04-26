@@ -325,8 +325,7 @@ li > a:only-child:after { content: ''; }
 	nav ul li ul li .toggle,
 	nav ul ul a {
 		background-color: $nav_bg; 
-	}
-
+}
 	nav ul ul {
 		float: none;
 		position:static;
@@ -353,7 +352,7 @@ li > a:only-child:after { content: ''; }
 	}
 
 .footerBox {
-	position: relative;
+	position: relative; 
 	width: 100%;
 	background-color: #555;
 	color: white;
