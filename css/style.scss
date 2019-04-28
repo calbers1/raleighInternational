@@ -76,10 +76,10 @@ $transparent_white: rgba(white, 0.1);
   
   /* Style the cards */
   .card {
-	@include linear-gradient(#31B7D7, #EDAC7D);
-	background: linear-gradient(135deg, $nav_transparent, $transparent_white);
+	/*@include linear-gradient(#31B7D7, #EDAC7D);
+	background: linear-gradient(135deg, $nav_transparent, $transparent_white);*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-	
+
 	padding: 16px;
 	text-align: center;
 	background-color: #f1f1f1;
