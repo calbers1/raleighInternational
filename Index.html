@@ -1,14 +1,17 @@
 <!DOCTYPE html>
+<head>
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
 <link rel="shortcut icon" href="images/favicon.png" />
 <title>Raleigh International</title>
-
+</head>
 <body>
 <nav>
   <div id="logo"><img src="#" alt="Raleigh International Logo" /></div>
@@ -63,8 +66,7 @@
         <div class="big-column">
           <div class="card">
             <img src="images/schedule.jpg" alt="plane" class="card-image-lg" />
-            <h4>Welcome to Raleigh International Airport.</h4>
-            <p>We offer domestic and international flights in a clean and friendly environment.</p>
+            <h1 style="color:black">Welcome to Raleigh International Airport.</h1>
           </div>
         </div>
       </div>
@@ -75,18 +77,10 @@
         <div class="column-4">
         </div>
         <div class="column-2">
-          <p>
-            You can insert text into columns without cards as well.<br />
-            This is a "column-2" column. It is 50% width.
-          </p>
-          <p>
-            Bacon ipsum dolor amet ball tip spare ribs jerky filet mignon buffalo sausage alcatra bacon sirloin. Short loin strip
-          steak andouille buffalo alcatra swine, leberkas landjaeger fatback t-bone drumstick ribeye kielbasa. Flank porchetta
-          jowl leberkas t-bone fatback pork venison cupim meatloaf. Jerky andouille kevin ham. Biltong shankle fatback short ribs,
-          sirloin brisket tenderloin chicken ribeye ham pork loin cupim kevin. Kevin ground round alcatra shank chicken strip
-          steak jowl pastrami pork.
-          
-        </p>
+         <form>
+          <input type="text" placeholder="Search" class="searchbar">
+          <button type="submit" class="searchbutton"><i class="fas fa-search"></i></button>
+         </form>
         </div>
         <div class="column-4">
         </div>
@@ -94,15 +88,42 @@
 
 
       <div class="row">
-        <div class="column-4"></div>
-        <div class="column-2">
+        <div class="column-4">
+          <a href="Arrivals&Departures.html" class="noline">
+            <div class="card">
+              <img src="images/plane_profile.jpeg" alt="plane" class="card-image-sm" />
+              <h4>Flight Times</h4>
+              <p>Find upcoming arrivals and departures</p>
+            </div>
+          </a>
+        </div>
+        <div class="column-4">
+          <a href="Parking.html" class="noline">
+            <div class="card">
+            <img src="images/silhouette.jpg" alt="parking" class="card-image-sm"/>
+            <h4>Parking</h4>
+            <p>Lot locations, prices, and rules</p>
+          </div>
+        </a>
+      </div>
+        <div class="column-4">
+          <a href="Shopping&Dining.html" class="noline">
           <div class="card">
-            <h4>You can use empty columns on either side to space things out.</h4>
-            <p><-----------column-4 on either side----------></p>
-          </div>
-        </div>        
-        <div class="column-4"></div>
-
+          <img src="images/waiting.jpg" alt="store" class="card-image-sm"/>
+          <h4>Shopping and Dining</h4>
+          <p>Kill some time with good food and fun shops</p>
+        </div>
+        </a>
+      </div>
+        <div class="column-4">
+          <a href="AirportInfo.html" class="noline">
+          <div class="card">
+          <img src="images/schedule.jpg" alt="attendant" class="card-image-sm"/>
+          <h4>Airport Info</h4>
+          <p>Everything you need to know about Raleigh International Airport</p>
+        </div>
+        </a>
+      </div>
       </div>
 
 </main>

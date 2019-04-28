@@ -228,6 +228,20 @@ li > a:only-child:after {
   z-index: 0;
 }
 
+ footer {
+    text-align: center;
+    background-color: black;
+  }
+  .footerBox {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: .70em;
+    text-align: center;
+    padding: 8px;
+  }
+
 @media all and (max-width: 768px) {
   #logo {
     display: block;
@@ -303,11 +317,12 @@ li > a:only-child:after {
   /* ----------------------------------footer------------------------------------------- */
   footer {
     text-align: center;
+    background-color: black;
   }
   .footerBox {
     position: relative;
     width: 100%;
-    background-color: #555;
+    background-color: black;
     color: white;
     font-size: .70em;
     text-align: center;
