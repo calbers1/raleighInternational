@@ -388,6 +388,7 @@ li > a:only-child:after { content: ''; }
 		font-size:17px;
 		text-decoration:none;
 		border:none;
+		float: right;
 	}
 
 	.toggle:hover {
@@ -398,10 +399,11 @@ li > a:only-child:after { content: ''; }
 		display: block;
 	}
 
-	nav ul li {
-		display: block;
-		width: 100%;
-		}
+		nav ul li {
+			margin: 0px;
+			float: right;
+			background-color:$nav_bg;
+			}
 
 	nav ul ul .toggle,
 	nav ul ul a {

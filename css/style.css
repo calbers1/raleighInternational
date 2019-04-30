@@ -375,6 +375,7 @@ footer {
     font-size: 17px;
     text-decoration: none;
     border: none;
+    float: right;
   }
   .toggle:hover {
     background-color: #43a1ce;
@@ -383,8 +384,9 @@ footer {
     display: block;
   }
   nav ul li {
-    display: block;
-    width: 100%;
+    margin: 0px;
+    float: right;
+    background-color: #194960;
   }
   nav ul ul .toggle,
   nav ul ul a {
