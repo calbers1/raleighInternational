@@ -121,10 +121,17 @@
           text-decoration-line: none !important;
   padding: 16px;
   text-align: center;
+  max-height: 600px;
+}
+
+@media only screen and (min-width: 760px) {
+  .card {
+    min-height: 400px;
+  }
 }
 
 .card p {
-  font-size: .6em;
+  font-size: .9rem;
 }
 
 .card-image-lg {
@@ -344,6 +351,17 @@ footer {
   }
   nav {
     margin: 0;
+  }
+  #nav-right {
+    float: right;
+  }
+  #logo {
+    display: block;
+    padding: 0px;
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+    width: 8rem;
   }
   .toggle + a,
   .menu {
