@@ -225,10 +225,11 @@ nav {
 
 #logo {
   display: block;
-  padding: 0 30px;
+  padding: 0px;
   float: left;
   font-size: 20px;
   line-height: 60px;
+  height: 4rem;
 }
 
 nav:after {

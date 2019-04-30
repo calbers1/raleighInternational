@@ -25,6 +25,7 @@ $dark_transparent: rgba(black, 0.6);
 	  text-decoration-line: none;
   }
 
+
   .searchbar{
 	  width: 90%;
 	  text-align: center;
@@ -233,10 +234,12 @@ nav {
 
 #logo {
 	display: block;
-	padding: 0 30px;
+	padding: 0px;
 	float: left;
 	font-size:20px;
 	line-height: 60px;
+	
+	height: 4rem; 
 }
 
 nav:after {
