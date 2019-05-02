@@ -288,7 +288,7 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 185px;
+  width: 190px;
   float: none;
   display: list-item;
   position: relative;
@@ -297,7 +297,7 @@ nav ul ul li {
 nav ul ul ul li {
   position: relative;
   top: -60px;
-  left: 185px;
+  left: 190px;
 }
 
 li > a:after {
