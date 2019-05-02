@@ -128,7 +128,7 @@ $dark_transparent: rgba(black, 0.6);
 	text-decoration-line: none !important;
 	padding: 16px;
 	text-align: center;
-	max-height: 600px;
+	min-height: 600px;
   }
 
   @media only screen and (min-width: 760px){
