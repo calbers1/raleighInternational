@@ -266,7 +266,7 @@ nav ul {
 nav ul li {
 	margin: 0px;
 	display:inline-block;
-	float: left;
+	float: right;
 	background-color:$nav_bg;
 	}
 
@@ -297,7 +297,7 @@ nav ul li:hover > ul {
 	
 
 nav ul ul li {
-	width:170px;
+	width:185px;
 	float:none;
 	display:list-item;
 	position: relative;
@@ -306,7 +306,7 @@ nav ul ul li {
 nav ul ul ul li {
 	position: relative;
 	top:-60px;
-	left:170px; 
+	left:185px; 
 }
 
 	
@@ -363,9 +363,7 @@ li > a:only-child:after { content: ''; }
 	nav {
 		margin: 0;
 	}
-	#nav-right{
-		float: right;
-	}
+	
 	#logo {
 		display: block;
 		padding: 0px;
@@ -388,7 +386,7 @@ li > a:only-child:after { content: ''; }
 		font-size:17px;
 		text-decoration:none;
 		border:none;
-		float: right;
+		float: left;
 	}
 
 	.toggle:hover {
