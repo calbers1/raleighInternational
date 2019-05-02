@@ -256,7 +256,8 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  float: right;
+ /*This float is for the order of nav bar*/
+  float: left;
   background-color: #194960;
 }
 
