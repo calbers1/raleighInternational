@@ -121,7 +121,7 @@
           text-decoration-line: none !important;
   padding: 16px;
   text-align: center;
-  max-height: 600px;
+  min-height: 600px;
 }
 
 @media only screen and (min-width: 760px) {
@@ -256,6 +256,7 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
+ /*This float is for the order of nav bar*/
   float: left;
   background-color: #194960;
 }
@@ -287,7 +288,7 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 170px;
+  width: 190px;
   float: none;
   display: list-item;
   position: relative;
@@ -296,7 +297,7 @@ nav ul ul li {
 nav ul ul ul li {
   position: relative;
   top: -60px;
-  left: 170px;
+  left: 190px;
 }
 
 li > a:after {
@@ -352,9 +353,6 @@ footer {
   nav {
     margin: 0;
   }
-  #nav-right {
-    float: right;
-  }
   #logo {
     display: block;
     padding: 0px;
@@ -375,7 +373,7 @@ footer {
     font-size: 17px;
     text-decoration: none;
     border: none;
-    float: right;
+    float: left;
   }
   .toggle:hover {
     background-color: #43a1ce;
@@ -386,7 +384,6 @@ footer {
   nav ul li {
     margin: 0px;
     float: right;
-    width: 100%;
     background-color: #194960;
   }
   nav ul ul .toggle,
