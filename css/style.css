@@ -386,6 +386,7 @@ footer {
   nav ul li {
     margin: 0px;
     float: right;
+    width: 100%;
     background-color: #194960;
   }
   nav ul ul .toggle,
