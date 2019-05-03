@@ -46,7 +46,6 @@
 		</ul>
 	  </nav>
 	<main>
-		
 		<br /><br />
 		<div class="row">
 			<div class="big-column">
@@ -57,6 +56,122 @@
 				</div>
 			</div>
 		</div>
+		
+		<form action="flight.php" method="POST">
+		<div class="row">
+		<div class="column-8"></div>
+		<div class="column-4">
+			<div class="card form-group">
+				<div>
+				<label>Destination Code:
+					<input type="text" class="form-control" name="DCode" placeholder="Destination Code" required/>
+				</label>
+				</div>
+				<div>
+				<label># Bags:
+					<select name="bags" class="form-control">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+				</label>
+				</div>
+				<div>
+				<label># Carry-ons:
+					<select name="carryons" class="form-control">
+						<option value="1">1</option>
+						<option value="2">2</option>
+					</select>
+				</label>
+				</div>
+				<div>
+					<label>Class:
+						<select name="class" class="form-control">
+							<option value="1">First Class</option>
+							<option value="2">Coach</option>
+						</select>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="column-2">
+			<div class="card">
+				<div class="row">
+					<div class="col-sm">
+						<label>First Name:
+						<input type="text" class="form-control" name="fName" required/>
+						</label>
+					</div>
+					<div class="col-sm">
+						<label>Last Name:
+						<input type="text" class="form-control" name="lName" required/>
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+						<label for="age">Age:
+							<input type="number" class="form-control" name="age"required/>
+						</label>
+					</div>
+					<div class="col-sm">
+						<label for="pID">Passport Number:
+							<input type="number" class="form-control" name="pID"required/>
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<label for="cCard">Credit Card Number:
+							<input type="number" class="form-control" name="cCard"required/>
+						</label>
+					</div>
+					<div class="col-sm-3">
+						<label for="cvv">CVV:
+							<input type="number" class="form-control" name="cvv"required/>
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<label for="exp">Expiration Date:
+							<input type="text" class="form-control" name="exp" required/>
+						</label>
+					</div>
+					<div class="col-sm">
+						<label for="zip">Zip Code:
+							<input type="number" class="form-control" name="zip" required/>
+						</label>
+					</div>
+				</div>
+				<br />
+				<div class="row">
+					<div class="col-sm">
+						<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column-8"></div>
+		</div>
+		</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		<div class="row">
 			<div class="column-2">
