@@ -2577,7 +2577,8 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  float: right;
+  /*DON"T CHANGE!!!!! */
+  float: left;
   background-color: #194960;
 }
 
@@ -2679,7 +2680,9 @@ footer {
     float: left;
     font-size: 20px;
     line-height: 60px;
-    width: 8rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
   .toggle + a,
   .menu {
@@ -2693,7 +2696,6 @@ footer {
     font-size: 17px;
     text-decoration: none;
     border: none;
-    float: left;
   }
   .toggle:hover {
     background-color: #43a1ce;
@@ -2703,8 +2705,9 @@ footer {
   }
   nav ul li {
     margin: 0px;
-    float: right;
+    float: left;
     background-color: #194960;
+    width: 100%;
   }
   nav ul ul .toggle,
   nav ul ul a {
@@ -2729,7 +2732,7 @@ footer {
     background-color: #194960;
   }
   nav ul ul {
-    float: none;
+    float: left;
     position: static;
     color: #ffffff;
   }

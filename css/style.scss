@@ -403,8 +403,9 @@ li > a:only-child:after { content: ''; }
 
 		nav ul li {
 			margin: 0px;
-			float: right;
+			float: left;
 			background-color:$nav_bg;
+			width: 100%;
 			}
 
 	nav ul ul .toggle,
