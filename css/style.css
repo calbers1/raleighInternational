@@ -2407,7 +2407,6 @@ textarea.form-control {
 /* Container that covers the whole screen*/
 .big-column {
   text-align: center;
-  float: center;
   width: 100%;
   padding: 0 15px;
   padding-bottom: 15px;
