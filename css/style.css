@@ -2404,12 +2404,6 @@ textarea.form-control {
   padding-bottom: 15px;
 }
 
-.column-2 img{
-  width: 25%;
-  float: left;
-  padding-top: 5%;
-}
-
 /* Container that covers the whole screen*/
 .big-column {
   text-align: center;
@@ -2449,6 +2443,7 @@ textarea.form-control {
   padding: 16px;
   text-align: center;
   min-height: 600px;
+  height: 100%;
 }
 
 @media only screen and (min-width: 760px) {
@@ -2583,8 +2578,7 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  /*DON"T CHANGE!!!!! */
-  float: left;
+  float: right;
   background-color: #194960;
 }
 
@@ -2615,7 +2609,7 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 190px;
+  width: 185px;
   float: none;
   display: list-item;
   position: relative;
@@ -2624,7 +2618,7 @@ nav ul ul li {
 nav ul ul ul li {
   position: relative;
   top: -60px;
-  left: 190px;
+  left: 185px;
 }
 
 li > a:after {
@@ -2686,9 +2680,7 @@ footer {
     float: left;
     font-size: 20px;
     line-height: 60px;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 8rem;
   }
   .toggle + a,
   .menu {
@@ -2702,6 +2694,7 @@ footer {
     font-size: 17px;
     text-decoration: none;
     border: none;
+    float: left;
   }
   .toggle:hover {
     background-color: #43a1ce;
@@ -2738,7 +2731,7 @@ footer {
     background-color: #194960;
   }
   nav ul ul {
-    float: left;
+    float: none;
     position: static;
     color: #ffffff;
   }
