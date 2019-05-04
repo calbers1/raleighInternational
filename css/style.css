@@ -2404,6 +2404,12 @@ textarea.form-control {
   padding-bottom: 15px;
 }
 
+.column-2 img{
+  width: 25%;
+  float: left;
+  padding-top: 5%;
+}
+
 /* Container that covers the whole screen*/
 .big-column {
   text-align: center;
