@@ -31,40 +31,42 @@ $btn-font-family: 'Open Sans', sans-serif;
   }
 
 
-  .searchbar{
+	.searchbar{
 	  width: 90% !important;
-	  text-align: center;
-	  font-size: 1.5em;
-	  background: lighten($main_bg, 5%);
-	  border: solid black 1px;
-	  border-right: none;
-	  height:50px;
-	  float: left;
-	  margin: 0;
-	  padding: 0;
-	  border-top-left-radius: 25px;
-	  border-bottom-left-radius: 25px;
+	  text-align: center !important;
+	  font-size: 1.5em !important;
+	  background: lighten($main_bg, 5%) !important;
+	  border: solid black 1px !important;
+	  border-right: none !important;
+	  height:50px !important;
+	  float: left !important;
+	  margin: 0 !important;
+	  padding: 0 !important;
+	  border-top-left-radius: 25px !important;
+	  border-bottom-left-radius: 25px !important;
+	  border-bottom-right-radius: 0 !important;
+	  border-top-right-radius: 0 !important;
   }
 
   .searchbutton{
-	  width: 10%;
-	  text-align: center;
-	  font-size: 1em;
-	  background: lighten($main_bg, 5%);
-	  border: solid black 1px;
-	  border-left: solid darken(white, 70%) 1px;
-	  height: 50px;
-	  float: right;
-	  margin: 0;
-	  padding: 0;
-	  border-top-right-radius: 25px;
-	  border-bottom-right-radius: 25px;
+	  width: 10% !important;
+	  text-align: center !important;
+	  font-size: 1em !important;
+	  background: lighten($main_bg, 5%) !important;
+	  border: solid black 1px !important;
+	  border-left: solid darken(white, 70%) 1px !important;
+	  height: 50px !important;
+	  float: right !important;
+	  margin: 0 !important;
+	  padding: 0 !important;
+	  border-top-right-radius: 25px !important;
+	  border-bottom-right-radius: 25px !important;
 	  
   }
 
   .searchbutton:hover{
-		  color: white;
-		  background: $dark_transparent;
+		  color: white !important;
+		  background: $dark_transparent !important;
 	  }
 
     /* Container that covers 1/8 of the screen*/
