@@ -270,7 +270,7 @@ nav ul {
 nav ul li {
 	margin: 0px;
 	display:inline-block;
-	float: right;
+	float: left;
 	background-color:$nav_bg;
 	}
 
@@ -336,6 +336,7 @@ li > a:only-child:after { content: ''; }
 	text-align: center;
 	padding: 8px;
 }
+
 
 
 @media all and (max-width : 768px) {
