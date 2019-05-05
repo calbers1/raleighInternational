@@ -4,9 +4,10 @@
 <meta charset="UTF-8">
 <meta name="description" content="">
 <meta name="keywords" content="">
-<meta name="author" content="">
+<meta name="author" content="Connor Albers, Brianna Patterson, Katelyn Dawkins, Wright Herndon, & Cade Brewster">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<script src="js/java.js"></script>
 <link rel="shortcut icon" href="images/favicon.png" />
 <title>Raleigh International</title>
 </head>
@@ -24,23 +25,13 @@
 				<input type="checkbox" id="drop-1">
 				<ul>
 				  <li><a href="Arrivals&Departures.html">Arrivals/Departures</a></li>
-				  <li><a href="#">Tickets</a></li>
 				  <li><a href="airlines.html">Airlines</a></li>
 				  <li><a href="Parking.html">Parking</a></li>
 				</ul>
 			  </li>
-			  <li>
-				  <!-- First Tier Drop Down -->
-				<label for="drop-3" class="toggle">Community +</label>
-				<a href="AirportInfo.html">Airport Info</a>
-				<input type="checkbox" id="drop-3">
-				<ul>
-				  <li><a href="history.html">History</a></li>
-				  <li><a href= "#">Other Useful Info</a></li>
-				</ul>
-				</li>
-				<li><a href="Shopping&Dining.html">Shop & Dine</a></li>
-			  <li><a href="contact.html">Contact</a></li>
+              <li><a href="Shopping&Dining.html">Shop & Dine</a></li> 
+              <li><a href="AirportInfo.html">Airport Information</a></li>
+            <li><a href="contact.html">Contact</a></li>
 			</ul>
           </nav>
           <main>
@@ -56,17 +47,36 @@
             </div>
     
     
-            <div class="row">
-                <div class="column-4"></div>
-                <div class="column-2">
-                    <div class="card">
-                        <p>
-                            
-                        </p>
-                    </div>
+      <div class="row">
+         <div class="column-4"></div>
+            <div class="column-2">
+                  <div class="card">
+                    <p> 
+                        <div class ="contact form">
+                            <form name="contact" method="post">
+                                <label for="fname">Full Name</label>
+                                <input type="text" id="fname" name="fullname" placeholder="Your name..">
+
+                                <label for="email">Email Address</label>
+                                <input type="text" id="email" name="email" placeholder="Your email adress..">
+                                
+                                <label for="phone">Phone Number</label>
+                                <input type="text" id="phone" name="phone" placeholder="Your phonenumber..">
+                                
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Your subject..">
+
+                                <label for="message">Question, Comment or Concern</label>
+                                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                                                        
+                                <input type="submit" name="send" value="Send Message" />
+                            </form>
+                        </div>
+                    </p>  
                 </div>
-                <div class="column-4"></div>
             </div>
+            <div class="column-4"></div>
+         </div>
     
     
     </main>

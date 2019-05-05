@@ -2609,7 +2609,7 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 185px;
+  width: 192px;
   float: none;
   display: list-item;
   position: relative;
@@ -2618,7 +2618,7 @@ nav ul ul li {
 nav ul ul ul li {
   position: relative;
   top: -60px;
-  left: 185px;
+  left: 192px;
 }
 
 li > a:after {
@@ -2633,6 +2633,85 @@ li > a:only-child:after {
   width: 100%;
   height: 600px;
   z-index: 0;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+input[type=submit] {
+  background-color: #194960;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #43a1ce;
+  color: #194960;
+}
+input[type=text] {
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+input[type=text]:focus {
+  border: 3px solid #43a1ce;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #43a1ce;
+  border-radius: 4px;
+  background-color: #fff;
+  resize: none;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #d1e8f3;
+  border: 2px solid #43a1ce;
+  border-radius: 4px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #194960;
+	border: none;
+	color: #d1e8f3;
+	padding: 16px 32px;
+	text-decoration: none;
+	text-align: center;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 100%;
 }
 
 footer {
@@ -2746,6 +2825,10 @@ footer {
   nav ul ul ul li {
     position: static;
   }
+  
+}
+
+  
   /* ----------------------------------footer------------------------------------------- */
   footer {
     text-align: center;
