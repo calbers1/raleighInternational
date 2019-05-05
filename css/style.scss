@@ -32,7 +32,7 @@ $btn-font-family: 'Open Sans', sans-serif;
 
 
   .searchbar{
-	  width: 90%;
+	  width: 90% !important;
 	  text-align: center;
 	  font-size: 1.5em;
 	  background: lighten($main_bg, 5%);
@@ -132,15 +132,11 @@ $btn-font-family: 'Open Sans', sans-serif;
 	text-decoration-line: none !important;
 	padding: 16px;
 	text-align: center;
-	min-height: 600px;
+	min-height: 400px;
 	height: 100%;
   }
 
-  @media only screen and (min-width: 760px){
-	  .card{
-	min-height: 400px;
-	  }
-  }
+ 
 
   .card p{
 	  
@@ -180,6 +176,55 @@ $btn-font-family: 'Open Sans', sans-serif;
 	  margin-bottom: 20px;
 	}
 
+  }
+
+  input[type=text], select, textarea {
+	width: 100%; 
+	padding: 15px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical; 
+  }
+  
+  input[type=submit] {
+	background-color: #194960;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #43a1ce;
+	color: #194960;
+  }
+  input[type=text] {
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+	width: 100%;
+  }
+  input[type=text]:focus {
+	border: 3px solid #43a1ce;
+  }
+  input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+  }
+  input[type=text] {
+	background-color: white;
+	background-image: url('searchicon.png');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding-left: 40px;
   }
 
 body {
@@ -342,6 +387,44 @@ li > a:only-child:after { content: ''; }
 
 
 @media all and (max-width : 768px) {
+
+	.searchbar{
+	  width: 90% !important;
+	  text-align: center !important;
+	  font-size: 1.5em !important;
+	  background: lighten($main_bg, 5%) !important;
+	  border: solid black 1px !important;
+	  border-right: none !important;
+	  height:50px !important;
+	  float: left !important;
+	  margin: 0 !important;
+	  padding: 0 !important;
+	  border-top-left-radius: 25px !important;
+	  border-bottom-left-radius: 25px !important;
+	  border-bottom-right-radius: 0 !important;
+	  border-top-right-radius: 0 !important;
+  }
+
+  .searchbutton{
+	  width: 10% !important;
+	  text-align: center !important;
+	  font-size: 1em !important;
+	  background: lighten($main_bg, 5%) !important;
+	  border: solid black 1px !important;
+	  border-left: solid darken(white, 70%) 1px !important;
+	  height: 50px !important;
+	  float: right !important;
+	  margin: 0 !important;
+	  padding: 0 !important;
+	  border-top-right-radius: 25px !important;
+	  border-bottom-right-radius: 25px !important;
+	  
+  }
+
+  .searchbutton:hover{
+		  color: white !important;
+		  background: $dark_transparent !important;
+	  }
 
 	h1 {
 	margin: 0.5em;
