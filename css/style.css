@@ -2334,38 +2334,40 @@ textarea.form-control {
 }
 
 .searchbar {
-  width: 90%;
-  text-align: center;
-  font-size: 1.5em;
-  background: #e5f2f8;
-  border: solid black 1px;
-  border-right: none;
-  height: 50px;
-  float: left;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  width: 90% !important;
+  text-align: center !important;
+  font-size: 1.5em !important;
+  background: #e5f2f8 !important;
+  border: solid black 1px !important;
+  border-right: none !important;
+  height: 50px !important;
+  float: left !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
 }
 
 .searchbutton {
-  width: 10%;
-  text-align: center;
-  font-size: 1em;
-  background: #e5f2f8;
-  border: solid black 1px;
-  border-left: solid #4d4d4d 1px;
-  height: 50px;
-  float: right;
-  margin: 0;
-  padding: 0;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  width: 10% !important;
+  text-align: center !important;
+  font-size: 1em !important;
+  background: #e5f2f8 !important;
+  border: solid black 1px !important;
+  border-left: solid #4d4d4d 1px !important;
+  height: 50px !important;
+  float: right !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-top-right-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
 }
 
 .searchbutton:hover {
-  color: white;
-  background: rgba(0, 0, 0, 0.6);
+  color: white !important;
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Container that covers 1/8 of the screen*/
@@ -2402,12 +2404,6 @@ textarea.form-control {
   width: 50%;
   padding: 0 15px;
   padding-bottom: 15px;
-}
-
-.column-2 img{
-  width: 25%;
-  float: left;
-  padding-top: 5%;
 }
 
 /* Container that covers the whole screen*/
@@ -2448,13 +2444,8 @@ textarea.form-control {
           text-decoration-line: none !important;
   padding: 16px;
   text-align: center;
-  min-height: 600px;
-}
-
-@media only screen and (min-width: 760px) {
-  .card {
-    min-height: 400px;
-  }
+  min-height: 400px;
+  height: 100%;
 }
 
 .card p {
@@ -2492,6 +2483,61 @@ textarea.form-control {
     display: block;
     margin-bottom: 20px;
   }
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #194960;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #43a1ce;
+  color: #194960;
+}
+
+input[type=text] {
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+input[type=text]:focus {
+  border: 3px solid #43a1ce;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type=text] {
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
 
 body {
@@ -2583,8 +2629,6 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  /*DON"T CHANGE!!!!! */
-  float: left;
   background-color: #194960;
 }
 
@@ -2615,7 +2659,7 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 190px;
+  width: 192px;
   float: none;
   display: list-item;
   position: relative;
@@ -2624,7 +2668,7 @@ nav ul ul li {
 nav ul ul ul li {
   position: relative;
   top: -60px;
-  left: 190px;
+  left: 192px;
 }
 
 li > a:after {
@@ -2656,6 +2700,40 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+  .searchbar {
+    width: 90% !important;
+    text-align: center !important;
+    font-size: 1.5em !important;
+    background: #e5f2f8 !important;
+    border: solid black 1px !important;
+    border-right: none !important;
+    height: 50px !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+  .searchbutton {
+    width: 10% !important;
+    text-align: center !important;
+    font-size: 1em !important;
+    background: #e5f2f8 !important;
+    border: solid black 1px !important;
+    border-left: solid #4d4d4d 1px !important;
+    height: 50px !important;
+    float: right !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+  }
+  .searchbutton:hover {
+    color: white !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+  }
   h1 {
     margin: 0.5em;
     text-align: center;
@@ -2686,9 +2764,7 @@ footer {
     float: left;
     font-size: 20px;
     line-height: 60px;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 74%;
   }
   .toggle + a,
   .menu {
@@ -2702,6 +2778,7 @@ footer {
     font-size: 17px;
     text-decoration: none;
     border: none;
+    float: left;
   }
   .toggle:hover {
     background-color: #43a1ce;
@@ -2738,7 +2815,7 @@ footer {
     background-color: #194960;
   }
   nav ul ul {
-    float: left;
+    float: none;
     position: static;
     color: #ffffff;
   }
@@ -2752,6 +2829,85 @@ footer {
   }
   nav ul ul ul li {
     position: static;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #194960;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #43a1ce;
+    color: #194960;
+  }
+  input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 100%;
+  }
+  input[type=text]:focus {
+    border: 3px solid #194960;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  input[type=text] {
+    background-color: white;
+    background-image: url("searchicon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 2px solid #194960;
+    border-radius: 4px;
+    background-color: #fff;
+    resize: none;
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d1e8f3;
+    border: 2px solid #194960;
+    border-radius: 4px;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #194960;
+    border: none;
+    color: #d1e8f3;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
   }
   /* ----------------------------------footer------------------------------------------- */
   footer {
